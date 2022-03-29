@@ -4,7 +4,7 @@ pragma experimental ABIEncoderV2;
 
 import "@serc-20/serc/SERC20.sol";
 
-contract SERC20Token is SERC20 {
+contract SERC20TokenTemplate is SERC20 {
     using SafeMath for uint256;
 
     address public constant deadAddress = address(0xdead);
